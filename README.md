@@ -22,3 +22,6 @@ Week 4 - [Building your deep neural network: Step by Step](https://github.com/ry
 Week 4 - [Deep Neural Network Application](https://github.com/ryuryukke/Coursera_Deep_Learning/blob/master/Neural%20Network%20and%20Deep%20Learning/Week4/Deep%2BNeural%2BNetwork%2B-%2BApplication%2Bv8.ipynb)
 
 作った多層ニューラルネットを用いて、再び猫の画像判定を行い、判定精度の向上を観察します。
+
+## Course 2 - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
+Coming soon..
