@@ -24,4 +24,10 @@ Week 4 - [Deep Neural Network Application](https://github.com/ryuryukke/Coursera
 作った多層ニューラルネットを用いて、再び猫の画像判定を行い、判定精度の向上を観察します。
 
 ## Course 2 - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
-Coming soon..
+
+Week 1 - [Initialization]()
+
+Week 1 - [Regularization]()
+
+Week 1 - [Gradient Checking]()
+
