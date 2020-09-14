@@ -25,7 +25,7 @@ sigmoid関数やsoftmax関数、画像のベクトル化などを例に挙げな
 
 ## Course 2 - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 
-### Week 1 - [Initialization]()
+### Week 1 - [Initialization]()(comming soon)
 
 パラメータ(W,b)の初期化の方法によって学習の進み方が異なることを観察します。パラメータの初期値がどれほどNNの学習速度に影響するのかを学びます。
 
