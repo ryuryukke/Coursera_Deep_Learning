@@ -25,7 +25,7 @@ sigmoid関数やsoftmax関数、画像のベクトル化などを例に挙げな
 
 ## Course 2 - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 
-### Week 1 - [Initialization]()(comming soon)
+### Week 1 - [Initialization](https://github.com/ryuryukke/Coursera_Deep_Learning/blob/master/Improving%20Deep%20Neural%20Networks/week1/Initialization.ipynb)
 
 パラメータ(W,b)の初期化の方法によって学習の進み方が異なることを観察します。パラメータの初期値がどれほどNNの学習速度に影響するのかを学びます。
 
@@ -44,7 +44,9 @@ sigmoid関数やsoftmax関数、画像のベクトル化などを例に挙げな
 
 そうすると、アクティベーション分布に偏りが生じにくくなり、学習がよく進む。
 
-Week 1 - [Regularization]()
+活性化関数をsigmoidやtanhを使う場合は、Xavierの初期化を行う。
 
-Week 1 - [Gradient Checking]()
+Week 1 - [Regularization]()(comming soon)
+
+Week 1 - [Gradient Checking]()(comming soon)
 
