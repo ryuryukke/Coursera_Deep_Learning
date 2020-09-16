@@ -48,7 +48,7 @@ sigmoid関数やsoftmax関数、画像のベクトル化などを例に挙げな
 
 活性化関数をsigmoidやtanhを使う場合は、Xavierの初期化を行う。
 
-### Week 1 - [Regularization]()(comming soon)
+### Week 1 - [Regularization](https://github.com/ryuryukke/Coursera_Deep_Learning/blob/master/Improving%20Deep%20Neural%20Networks/week1/Regularization_v2a.ipynb)
 
 L2正規化とDropoutの2手法によってどれほど、過学習が軽減されるかを観察します。
 
@@ -78,6 +78,10 @@ L2正規化とDropoutの2手法によってどれほど、過学習が軽減さ�
 
 つまりは、毎iterationで、異なる小さなNNモデルで学習をしていることになる。複数の学習器を使わず、一つの学習器だけでアンサンブル学習が行えていることになる。
 これが汎化性能向上につながる。
+
+ノードの出力のスケールを合わせるために、訓練時にkeep_probで割る。(Inverted Dropout)
+
+これは、Dropoutによって無効にしたノード分だけ、出力が小さくスケールされてしまうから。
 
 Week 1 - [Gradient Checking]()(comming soon)
 
