@@ -1,6 +1,8 @@
 # Coursera_Deep_Learning
 This repository contains my own solutions to the programming assignments during Coursera [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) Course.
 
+This is the solution to the latest problem as of summer 2020.
+
 ## Course 1 - Neural Networks and Deep Learning
 
 ### Week 2 - [Python basics with numpy (Optional)](https://github.com/ryuryukke/Coursera_Deep_Learning/blob/master/Neural%20Network%20and%20Deep%20Learning/Week2/Python_Basics_With_Numpy_v3a.ipynb)
@@ -25,7 +27,7 @@ sigmoid関数やsoftmax関数、画像のベクトル化などを例に挙げな
 
 ## Course 2 - Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization
 
-### Week 1 - [Initialization]()(comming soon)
+### Week 1 - [Initialization](https://github.com/ryuryukke/Coursera_Deep_Learning/blob/master/Improving%20Deep%20Neural%20Networks/week1/Initialization.ipynb)
 
 パラメータ(W,b)の初期化の方法によって学習の進み方が異なることを観察します。パラメータの初期値がどれほどNNの学習速度に影響するのかを学びます。
 
@@ -44,7 +46,38 @@ sigmoid関数やsoftmax関数、画像のベクトル化などを例に挙げな
 
 そうすると、アクティベーション分布に偏りが生じにくくなり、学習がよく進む。
 
-Week 1 - [Regularization]()
+活性化関数をsigmoidやtanhを使う場合は、Xavierの初期化を行う。
 
-Week 1 - [Gradient Checking]()
+### Week 1 - [Regularization]()(comming soon)
+
+L2正規化とDropoutの2手法によってどれほど、過学習が軽減されるかを観察します。
+
+#### ポイント
+#### ・過学習を防ぐには？
+1.学習データを増やす
+
+2.ネットワークの容量を減らす
+
+3.重みに対する正則化(L1, L2..)
+
+4.Dropout
+
+5.データ拡張(画像を反転したり..)
+
+#### ・L2正規化
+
+正規化項(各層ごとの行列Wの要素の二乗の和の総和)をコスト関数に付け加える。正規化項のλの値を大きくすれば、各層のパラメータWの値が小さくなる。
+
+つまり、NNが単純化されロジスティック回帰に近づくことで、適度な線形表現が得られ、過学習(overfitting, high-variance)を回避できる。一方で、λの値を大きくしすぎると、過度に線形的になり、返って学習不足(underfitting, high-bias)な状態になりうる。
+
+正則化項を加えたコスト関数から、dWを求めてWの更新の式を立てると、Wが任意の値で、Wが小さくなるように更新されることがわかる。これがL2正規化が重み減衰と呼ばれる所以である。
+
+#### ・Dropout
+
+学習の繰り返しのたび、決めた確率で、ある層の内のいくつかのノードを使わないようにして、学習を行っていく。
+
+つまりは、毎iterationで、異なる小さなNNモデルで学習をしていることになる。複数の学習器を使わず、一つの学習器だけでアンサンブル学習が行えていることになる。
+これが汎化性能向上につながる。
+
+Week 1 - [Gradient Checking]()(comming soon)
 
