@@ -96,7 +96,6 @@ backpropがうまく動作しているかを知るために、各パラメータ
 ### Week 2 - [Optimization](https://github.com/ryuryukke/Coursera_Deep_Learning/blob/master/Improving%20Deep%20Neural%20Networks/week2/Optimization_methods_v1b.ipynb)
 
 Mini Batch Gradient Decent(ミニバッチ勾配降下法)でのバッチの分け方、またBatch Gradient Decent(通常の勾配降下法)とMomentum、Adamを利用して
-
 最適化した場合のコスト関数の収束のスピードの違いを実際にそれぞれを実装することで学びます。
 
 #### ポイント
