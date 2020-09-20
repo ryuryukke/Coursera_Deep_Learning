@@ -83,7 +83,7 @@ L2正規化とDropoutの2手法によってどれほど、過学習が軽減さ�
 
 これは、Dropoutによって無効にしたノード分だけ、出力が小さくスケールされてしまうから。
 
-### Week 1 - [Gradient Checking]()
+### Week 1 - [Gradient Checking](https://github.com/ryuryukke/Coursera_Deep_Learning/blob/master/Improving%20Deep%20Neural%20Networks/week1/Gradient%2BChecking%2Bv1.ipynb)
 
 自分が作ったbackpropが正しく動作しているか確認する方法を学びます。
 
