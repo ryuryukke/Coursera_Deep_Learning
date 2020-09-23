@@ -133,4 +133,12 @@ MomentumとRMSpropをあわせた手法。通常の勾配降下法の更新式�
 
 それを補正するために、パラメータ更新のたびに指数的に大きくなっていくような式で、MomentumやAdamでの勾配の値を割る。
 
-### Week 3 - [Tensorflow]()(comming soon)
+### Week 3 - [Tensorflow](https://github.com/ryuryukke/Coursera_Deep_Learning/blob/master/Improving%20Deep%20Neural%20Networks/week3/TensorFlow_Tutorial_v3b.ipynb)
+
+TensorFlowの基本的な使い方について学びます。
+
+## Course 3 - Structuring Machine Learning Projects
+
+There is no programming assignments. Only quizzes.
+
+## Course 4 - Convolutional Neural Networks
