@@ -1,4 +1,6 @@
 # coursera_deep_learning
+![dai](https://user-images.githubusercontent.com/61570900/94094314-20dbaa00-fe5a-11ea-9b1c-9872d2ba68d6.png)
+
 This repository contains my own solutions to the programming assignments during Coursera [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) Course.
 
 This is the solution to the latest problem as of summer 2020.
